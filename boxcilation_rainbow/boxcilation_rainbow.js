@@ -21,7 +21,9 @@ let maxH = 250;
 
 
 function setup() {
-  myP5 = createCanvas(800, 800, WEBGL);
+  createCanvas(800, 800, WEBGL);
+  // Move the canvas so it’s inside our <div id="sketch-holder">.
+  canvas.parent('sketch-holder');
 
   ortho(-width / 2, width / 2, -height / 2, height / 2, -2000, 2000);
 
