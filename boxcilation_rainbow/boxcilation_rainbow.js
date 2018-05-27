@@ -21,7 +21,7 @@ let maxH = 250;
 
 
 function setup() {
-  createCanvas(800, 800, WEBGL);
+  let canvas = createCanvas(800, 800, WEBGL);
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
 
