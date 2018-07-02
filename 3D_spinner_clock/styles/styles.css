@@ -1,0 +1,12 @@
+body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: darkgray;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+canvas {
+  width: 600px;
+  height: 400px;
+  margin:0;
+}
